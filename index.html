@@ -1,0 +1,125 @@
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yes Shecodes Survey Form</title>
+    <link href="https://fonts.googleapis.com/css2?family=Piedra&family=Solway&family=Ubuntu+Condensed&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fe60ccc3fe.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="social-med">
+                <p class="owner">By Mel</p>
+                <a href="https://www.facebook.com/yeshecodes/"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://www.instagram.com/yes_shecodes/"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.youtube.com/channel/UCVHlXYzemeKaWeT-WntrE2A"><i class="fab fa-youtube"></i></a>
+                <a href="https://www.linkedin.com/company/11872737/" class="link-icon"><i
+                        class="fab fa-linkedin-in"></i></a>
+            </div>
+
+        </div>
+        <div class="content"></div>
+        <div class="form-wrap">
+            <div class="myform">
+                <h1 id="title">Yes SheCodes without STEM</h1>
+                <p id="description">Your opinion has never been this valuable! ❤</p>
+                <form action="#" id="survey-form">
+                    <div class="i name-sec">
+                        <label for="name" id="name-label">Name & Surname </label>
+                        <input type="text" id="name" placeholder="Enter your name and surname" required>
+                    </div>
+                    <div class="i">
+                        <label for="email" id="email-label">Email </label>
+                        <input type="email" id="email" placeholder="Enter a valid email address" required>
+                    </div>
+                    <div class="i">
+                        <label for="current-role">Which best describes you? </label>
+                        <select id="dropdown">
+                            <option value="">-- Please choose an option --</option>
+                            <option value="student">Student</option>
+                            <option value="unemployed">Graduate Actively Searching for a Job</option>
+                            <option value="tech-employ">Employed in Tech</option>
+                            <option value="employed">Employed</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="i">
+                        <label id="number-label">Years of professional Experience</label>
+                        <input type="number" id="number" min="0" max="40" placeholder="If not applicable, enter 0">
+                    </div>
+                    <div class="i">
+                        <fieldset>
+                            <legend class="career">Would you consider a career in tech as a sofware developer?</legend>
+                            <input type="radio" name="tech" checked value="yes">
+                            <label>Yes</label><br />
+
+                            <input type="radio" name="tech" value="no">
+                            <label>No</label><br />
+
+                            <input type="radio" name="tech" value="not-sure">
+                            <label>Not Sure</label>
+                        </fieldset>
+                    </div>
+                    <div class="i">
+                        <label class="platform">Which platforms will you opt for if you decided to learn how to code
+                            (Select all which apply)
+                        </label>
+                        <div>
+                            <input type="checkbox" value="shecodes" checked>
+                            <label>Yes SheCodes</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="fcc">
+                            <label>FreeCodeCamp</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="youtube">
+                            <label>Youtube</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="udacity">
+                            <label>Udacity</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="udemy">
+                            <label>Udemy</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="bootcamp">
+                            <label>Bootcamp</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" value="univ">
+                            <label>University</label>
+                        </div>
+                    </div>
+                    <div class="i">
+                        <label id="opinion">Do you think anybody can code irrespective of educational background?
+                        </label>
+                        <textarea name="story" rows="5" cols="33">
+Your voice...
+</textarea>
+                    </div>
+                    <div class="btn">
+                        <button id="submit">Submit</button>
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</body>
+
+</html>
