@@ -1,5 +1,7 @@
-### 🔹Yes SheCodes without STEM Survey Form🔹
-#### Project II: FreeCodeCamp web design 
+### Yes SheCodes without STEM Survey Form      
+  **Project II: FreeCodeCamp Web Design** 
+
+---
 
 ### Table of Content 
 * [Context](#general-info)
@@ -13,7 +15,7 @@ Because I like to color 🌈 my life with some css on html,  I decided to follow
 ___Buiding a survey form___ is one of the project requirements and that's why I'm here 😊. 
 
 ### Technologies
-Because the basics in any technology are key, I used plain
+Because the basics in any technology are key, for this project I used plain
 - **html**
 - **css** (Grid and Flexbox for responsiveness)
 
